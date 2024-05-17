@@ -1,6 +1,6 @@
 # Landing page 🖥
 <p align="center">
-<img src="./assets/images/print.png" alt="Landing page" title="Landing page">
+<img src="./images/print.png" alt="Landing page" title="Landing page">
 </p>
 
 ## 📖 Sobre   
@@ -15,7 +15,7 @@ O projeto dessa landing page, foi feito com intuito de testar meu responsivo e p
 
 ## 🖥️ Demonstração
 
-<img src="./assets/images/print.png" alt="Landing page" title="Landing page">
+<img src="./images/print.png" alt="Landing page" title="Landing page">
 
 Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/landing-page/).
 
