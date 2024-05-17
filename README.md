@@ -1,6 +1,6 @@
 # Landing page 🖥
 <p align="center">
-<img src="https://imgur.com/RDqRgcX" alt="Landing page" title="Landing page">
+<img src="https://ibb.co/5RTZv5R" alt="Landing page" title="Landing page">
 </p>
 
 ## 📖 Sobre   
