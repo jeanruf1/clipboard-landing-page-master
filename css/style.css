@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../images/bg-header-desktop.png);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-image: fill 0 linear-gradient(transparent, #fff);
+    background-size: cover;
+}
+
+header svg{
+    transform: scale(0.8);
+    margin-top: 60px;
+}
+
+header h1{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 38.5px;
+    margin: auto;
+}
+
+header p{
+    width: 40%;
+    margin: auto;
+    color: #939393;
+    font-size: 18px;
+}
+
+
+.header1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.ios,.mac{
+    margin-top: 30px;
+}
+
+.ios button{
+ background-color: hsl(171, 66%, 44%);
+ border: 0;
+ border-radius: 30px;
+ height: 40px;
+ cursor: pointer;
+ overflow: hidden;
+ padding: 0px 30px;
+ text-align: center;
+ touch-action: manipulation;
+ margin-right: 15px;
+ font-size: 15px;
+ box-shadow: 0 2px 2px #5b5b5b;
+}
+
+.ios a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ios button:hover{ 
+  background-color: hsl(171, 63%, 31%);
+  color: #fff;
+}
+
+.ios button:active{
+  background: #65e5b2;
+}
+
+.ios button:disabled{ 
+  cursor: not-allowed;
+  background: hsl(171, 66%, 44%);
+  color: #fff;
+}
+
+.mac button{
+  background-color: hsl(233, 100%, 69%);
+  border: 0;
+  border-radius: 30px;
+  height: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0px 30px;
+  text-align: center;
+  touch-action: manipulation;
+  font-size: 15px;
+  box-shadow: 0 2px 2px #5b5b5b;
+}
+
+.mac a{
+    text-decoration: none;
+    color: #fff;
+}
+   
+.mac button:hover{ 
+  background-color: hsl(233, 65%, 51%);
+  color: #fff;
+}
+   
+.mac button:active{
+  background: #397fe7;
+}
+   
+.mac button:disabled{ 
+  cursor: not-allowed;
+  background: hsl(233, 100%, 69%);
+  color: #fff;
+}
+
+.header2{
+    text-align: center;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.header2 h2{
+    padding-top: 150px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.header2 p{
+    width: 40%;
+    margin: auto;
+    color: #939393;
+}
+
+.top1{
+    display: flex;
+}
+
+.top1 img{
+    width: 550px;
+}
+
+.top1 figure{
+    margin-right: 70px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.column aside{
+    padding-bottom: 50px;
+    font-size: 10px;
+}
+
+.column h5{
+    font-size: 18px;
+}
+
+.column p{
+    color: #939393;
+    padding-top: 10px;
+    width: 70%;
+}
+
+
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid img{
+    width: 550px;
+    display: flex;
+    margin: auto;
+}
+
+#mid-1{
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#mid-1 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#mid-1 p{
+    color: #939393;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+#mid-2{
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+#mid-2 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#mid-2p{
+    color: #939393;
+    font-size: 14px;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+.infomenu{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+}
+
+.infomenu .info{
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.logo{
+    transform: scale(0.8);
+    padding: 30px 0px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.infomenu h4{
+    font-size: 20px;
+    width: 350px;
+}
+
+.logo1{
+    transform: scale(0.8);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 70px;
+    position: relative;
+    bottom: 20px;
+}
+
+.infomenu p{
+    color: #939393;
+    padding-top: 10px;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 200px 0px;
+}
+
+.imgs img{
+    height: 35px;
+}
+
+#principal{
+    width: 100%;
+}
+
+.main-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#git svg{
+    width: 25px;
+}
+
+.main-bottom h1{
+    text-align: center;
+}
+
+.main-bottom p{
+    color: #939393;
+    padding-top: 30px;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+#buttons{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+footer{
+    height: 100px;
+    background-color: #ececec;
+    display: flex;
+}
+
+#logofooterc{
+    transform: scale(0.4);
+    margin-left: 50px;
+}
+
+#infofooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-left: 40px;
+}
+
+#infofooter #c1, #c2, #c3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#infofooter a{
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#socialfooter{
+    margin: auto;
+}
+
+#socialfooter svg{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    .top1 figure{
+        margin-right: 0;
+    }
+
+    .top1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top1 img{
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .mid{
+        align-items: center;
+    }
+
+    .mid img{
+        width: 100%;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .infomenu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header1{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+
+    .imgs{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 100px 0;
+    }
+
+    .imgs img{
+        height: 120px;
+        transform: scale(0.4);
+    }
+
+    .header2 p, .column p, #mid-1 p, #mid-2p{
+        width: 90%;
+    }
+
+    .infomenu h4{
+        width: 100%;
+    }
+
+    .infomenu p{
+        width: 90%;
+        margin: auto;
+    }
+
+    .infomenu .info{
+        margin: 20px 0;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #infofooter{
+        padding-left: 0;
+        padding-bottom: 30px;
+        text-align: center;
+        flex-wrap:unset;
+        flex-direction: column;
+    }
+
+    #logofooterc{
+        padding-left: 60px;
+    }
+
+    #infofooter #c1,#c2,#c3{
+        padding: 0;
+    }
+
+    #socialfooter{
+        margin: auto;
+    }
+
+    .main-bottom p{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #buttons{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    header p{
+        width: 90%;
+    }
+
+    .header1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ios button, .mac button{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .column p{
+        margin: auto;
+    }
+}
