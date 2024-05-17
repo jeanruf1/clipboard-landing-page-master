@@ -17,7 +17,7 @@ O projeto dessa landing page, foi feito com intuito de testar meu responsivo e p
 
 <img src="./images/print.png" alt="Landing page" title="Landing page">
 
-Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/clipboard-landing-page-master/).
+Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/calculadoraimc/).
 
 ---
 
@@ -25,10 +25,10 @@ Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/clipboar
 
 ```bash
 # Clone o repositório
-git clone https://jeanruf1.github.io/clipboard-landing-page-master//
+git clone https://jeanruf1.github.io/calculadoraimc/
 
 # Entre no diretório
-cd landing-page-master
+cd calculadoraimc
 ```
 Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
