@@ -28,7 +28,7 @@ Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/clipboar
 git clone https://jeanruf1.github.io/clipboard-landing-page-master//
 
 # Entre no diretório
-cd landing-page
+cd landing-page-master
 ```
 Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
